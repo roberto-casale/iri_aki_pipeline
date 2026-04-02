@@ -1,0 +1,41 @@
+# MAGIC SOLUTION — Pipeline In Silico
+# pip install -r requirements.txt
+
+# === Core ===
+pandas>=2.0
+numpy>=1.24
+scipy>=1.11
+scikit-learn>=1.3
+requests>=2.31
+statsmodels>=0.14
+
+# === Fase 1: Omics ===
+GEOparse>=2.0
+pydeseq2>=0.4
+gseapy>=1.0
+# decoupler>=1.6       # Opzionale: multi-method enrichment
+# rpy2>=3.5            # Opzionale: per limma (richiede R installato)
+# scanpy>=1.9          # Opzionale: per analisi single-cell di supporto
+
+# === Fase 2: Network Medicine ===
+networkx>=3.0
+pymed>=0.8
+biopython>=1.81
+
+# === Fase 3: Drug Repurposing ===
+chembl_webresource_client>=0.10
+lxml>=4.9
+
+# === Fase 4: In Silico Validation ===
+rdkit>=2023.9.1
+biopandas>=0.4
+# meeko>=0.5           # Opzionale: docking ligand prep
+# deepchem>=2.7        # Opzionale: tossicologia ML (pesante)
+
+# === Visualizzazione ===
+matplotlib>=3.7
+seaborn>=0.12
+
+# === Jupyter ===
+ipykernel>=6.0
+jupyter>=1.0

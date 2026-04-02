@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/geo/
+backup_e_old/
+.DS_Store

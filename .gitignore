@@ -4,4 +4,5 @@ __pycache__/
 .ipynb_checkpoints/
 data/geo/
 output/
-.DS_Storeminet-*.txt
+.DS_Store
+minet-*.txt

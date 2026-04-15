@@ -3,6 +3,5 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 data/geo/
-backup_e_old/
 output/
-.DS_Store
+.DS_Storeminet-*.txt

@@ -3,6 +3,6 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 data/geo/
-output/
+output/fase1/
 .DS_Store
 minet-*.txt
